@@ -29,3 +29,17 @@ plt.plot(x, z)
 plt.plot(x, t)
 plt.legend(['Race One','Race Two','Race Three'] , loc = 4)
 plt.show()
+
+## adding style
+plt.xlabel('Distance')
+plt.ylabel('Time')
+plt.title("Graph Drawing")
+plt.plot(x, y)
+plt.plot(x, z)
+plt.plot(x, t)
+plt.legend(['Race One','Race Two','Race Three'] , loc = 4)
+plt.style.use('fivethirtyeight')
+plt.show()
+## to see available
+print(plt.style.available)
+
