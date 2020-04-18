@@ -10,3 +10,12 @@ plt.ylabel('Time')
 plt.title("Graph Drawing")
 plt.plot(x , y)
 plt.show()
+
+## anotating a graph
+plt.xlabel('Distance')
+plt.ylabel('Time')
+plt.title("Graph Drawing")
+plt.plot(x , y)
+plt.annotate(xy=[2,1], s = "Second Entry")
+plt.annotate(xy=[4,6], s = "Third Entry")
+plt.show()
