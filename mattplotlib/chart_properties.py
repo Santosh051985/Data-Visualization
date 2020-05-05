@@ -1,4 +1,4 @@
-#import all library
+# import all library
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -12,7 +12,7 @@ plt.title("Graph Drawing")
 plt.plot(x , y)
 plt.show()
 
-## anotating a graph
+## anotating a graph ##
 plt.xlabel('Distance')
 plt.ylabel('Time')
 plt.title("Graph Drawing")
