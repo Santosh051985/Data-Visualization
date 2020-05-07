@@ -1,7 +1,7 @@
 # import all library
 import numpy as np
 import matplotlib.pyplot as plt
-
+### Apply numpy##
 x = np.arange(0,10)
 y = x ^ 2
 z = x ^ 3
